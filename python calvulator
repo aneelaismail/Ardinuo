@@ -1,0 +1,21 @@
+print("Aneela Ismail")
+print("Welcome to the python calculator")
+def cal(a,b,c):
+    if(c=='add'):
+        ans=a+b
+        print(ans)
+    elif(c=='sub'):
+        ans=a-b
+        print(ans)
+    elif(c=='multi'):
+         ans=a*b
+         print
+    elif(c=='divi'):
+                ans=a/b
+                print(ans)
+    else:
+            print("operation is invalid")
+a=float(input("Enter the first value"  ))
+b=float(input("Enter second value" ))
+c=str(input("Enter the operation"  ))
+cal(a,b,c)
