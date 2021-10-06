@@ -1,0 +1,20 @@
+class employee():
+  def __init__(self,name,age,pay):
+    self.name=name
+    self.age=age
+    self.pay=pay
+emp_1=employee("Ali",22,12000)
+emp_2=employee("Ayesha",23,10000)
+emp_3=employee("Amir",20,15000)
+print("Information of the first employee")
+print(emp_1.name)
+print(emp_1.age)
+print(emp_1.pay)
+print("Information of the second employee")
+print(emp_2.name)
+print(emp_2.age)
+print(emp_2.pay)
+print("Information of the employee")
+print(emp_2.name)
+print(emp_3.age)
+print(emp_3.pay)
