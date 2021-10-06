@@ -1,0 +1,31 @@
+ class Marksheet:
+    def __init__(self,name,age,roll_no):
+        self.name=name
+        self.age=age
+        self.roll_no=roll_no
+    def per(self,m1,m2,m3,m4,m5):
+        per=(m1+m2+m3+m4+m5)/500*100
+        print("Student name :",self.name)
+        print("Student age :",self.age)
+        print("Stdent roll_no",self.roll_no)
+        print("percentage is: ",per)
+        return per
+    def grade(self,per):
+        if(per>90):
+            print("A GRADE")
+        elif(per>70):
+            print("B GRADE")
+        elif(per>60):
+            print("C GRADE")
+        else:
+            print("FAIL")
+           # return grade
+st_1=Marksheet("Ali",16,3)
+st_2=Marksheet("Ahsan",23,4)
+st_3=Marksheet("Akbar",19,5)
+per_1=st_1.per(90,60,70,80,98)
+st_1.grade(per_1)
+per_2=st_2.per(40,70,42,50,55)
+st_2.grade(per_2)
+per_3=st_3.per(34,56,78,89,66)
+st_3.grade(per_3)
