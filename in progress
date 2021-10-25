@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel ="stylesheet" href="style.css">
+</head>
+<body>
+    <H1>
+        IoT Based Project 
+    </H1>
+    <h2>
+        HOME AUTOMATION CONTROLLER WEBSITE
+    </h2>
+    <P>
+        This website is about to controll the all appliences fo the home through the Internet which is the main project of the IoT
+    </P>
+    <h3>
+        ROOM NO # 01
+    </h3>
+
+
+    
+
+</body>
+</html>
